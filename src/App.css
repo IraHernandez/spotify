@@ -2,6 +2,61 @@
   text-align: center;
 }
 
+.container {
+  background-color: var(--color-dark10);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.container input {
+  padding: 0.5rem 0.75rem;
+  outline: none;
+  margin-block: 1rem;
+  border-radius: 1rem;
+}
+
+.btn-primary {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  color: var(--color-white);
+  background-color: brown;
+}
+
+.btn-primary:active {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+.btn-green {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  color: var(--color-white);
+  background-color: #00b050;
+}
+
+.btn-green:active {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+
+.container button[type="submit"] {
+  border: none;
+  color: var(--color-white);
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  /* width: 100%; */
+}
+
+.container .listArtist {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 0.5rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
